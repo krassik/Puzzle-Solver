@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92376940168B559400C6A4EE /* sudoku6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9237693F168B559400C6A4EE /* sudoku6.jpg */; };
+		92376943168B570800C6A4EE /* sudoku7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92376942168B570800C6A4EE /* sudoku7.jpg */; };
+		92376945168B57ED00C6A4EE /* sudoku8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92376944168B57ED00C6A4EE /* sudoku8.jpg */; };
+		9298DE72168B319700CEADCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DE71168B319700CEADCD /* UIKit.framework */; };
+		9298DE74168B319700CEADCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DE73168B319700CEADCD /* Foundation.framework */; };
+		9298DE76168B319700CEADCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DE75168B319700CEADCD /* CoreGraphics.framework */; };
+		9298DE7C168B319700CEADCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9298DE7A168B319700CEADCD /* InfoPlist.strings */; };
+		9298DE7E168B319700CEADCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9298DE7D168B319700CEADCD /* main.m */; };
+		9298DE82168B319700CEADCD /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9298DE81168B319700CEADCD /* PSAppDelegate.m */; };
+		9298DE84168B319700CEADCD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9298DE83168B319700CEADCD /* Default.png */; };
+		9298DE86168B319700CEADCD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9298DE85168B319700CEADCD /* Default@2x.png */; };
+		9298DE88168B319700CEADCD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9298DE87168B319700CEADCD /* Default-568h@2x.png */; };
+		9298DE8B168B319700CEADCD /* PSViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9298DE8A168B319700CEADCD /* PSViewController.mm */; };
+		9298DE8E168B319700CEADCD /* PSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9298DE8C168B319700CEADCD /* PSViewController_iPhone.xib */; };
+		9298DE91168B319700CEADCD /* PSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9298DE8F168B319700CEADCD /* PSViewController_iPad.xib */; };
+		9298DE98168B32C300CEADCD /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DE97168B32C300CEADCD /* opencv2.framework */; };
+		9298DEAE168B32E100CEADCD /* ocr_problem_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DE9A168B32E100CEADCD /* ocr_problem_0.txt */; };
+		9298DEAF168B32E100CEADCD /* ocr_problem_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DE9B168B32E100CEADCD /* ocr_problem_1.txt */; };
+		9298DEB0168B32E100CEADCD /* ocr_problem_10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DE9C168B32E100CEADCD /* ocr_problem_10.txt */; };
+		9298DEB1168B32E100CEADCD /* ocr_problem_11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DE9D168B32E100CEADCD /* ocr_problem_11.txt */; };
+		9298DEB2168B32E100CEADCD /* ocr_problem_12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DE9E168B32E100CEADCD /* ocr_problem_12.txt */; };
+		9298DEB3168B32E100CEADCD /* ocr_problem_13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DE9F168B32E100CEADCD /* ocr_problem_13.txt */; };
+		9298DEB4168B32E100CEADCD /* ocr_problem_14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEA0168B32E100CEADCD /* ocr_problem_14.txt */; };
+		9298DEB5168B32E100CEADCD /* ocr_problem_15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEA1168B32E100CEADCD /* ocr_problem_15.txt */; };
+		9298DEB6168B32E100CEADCD /* ocr_problem_16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEA2168B32E100CEADCD /* ocr_problem_16.txt */; };
+		9298DEB7168B32E100CEADCD /* ocr_problem_17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEA3168B32E100CEADCD /* ocr_problem_17.txt */; };
+		9298DEB8168B32E100CEADCD /* ocr_problem_18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEA4168B32E100CEADCD /* ocr_problem_18.txt */; };
+		9298DEB9168B32E100CEADCD /* ocr_problem_19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEA5168B32E100CEADCD /* ocr_problem_19.txt */; };
+		9298DEBA168B32E100CEADCD /* ocr_problem_2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEA6168B32E100CEADCD /* ocr_problem_2.txt */; };
+		9298DEBB168B32E100CEADCD /* ocr_problem_3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEA7168B32E100CEADCD /* ocr_problem_3.txt */; };
+		9298DEBC168B32E100CEADCD /* ocr_problem_4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEA8168B32E100CEADCD /* ocr_problem_4.txt */; };
+		9298DEBD168B32E100CEADCD /* ocr_problem_5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEA9168B32E100CEADCD /* ocr_problem_5.txt */; };
+		9298DEBE168B32E100CEADCD /* ocr_problem_6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEAA168B32E100CEADCD /* ocr_problem_6.txt */; };
+		9298DEBF168B32E100CEADCD /* ocr_problem_7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEAB168B32E100CEADCD /* ocr_problem_7.txt */; };
+		9298DEC0168B32E100CEADCD /* ocr_problem_8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEAC168B32E100CEADCD /* ocr_problem_8.txt */; };
+		9298DEC1168B32E100CEADCD /* ocr_problem_9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEAD168B32E100CEADCD /* ocr_problem_9.txt */; };
+		9298DEC7168B32EB00CEADCD /* t10k-images.idx3-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEC3168B32EB00CEADCD /* t10k-images.idx3-ubyte */; };
+		9298DEC8168B32EB00CEADCD /* t10k-labels.idx1-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEC4168B32EB00CEADCD /* t10k-labels.idx1-ubyte */; };
+		9298DEC9168B32EB00CEADCD /* train-images.idx3-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEC5168B32EB00CEADCD /* train-images.idx3-ubyte */; };
+		9298DECA168B32EB00CEADCD /* train-labels.idx1-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = 9298DEC6168B32EB00CEADCD /* train-labels.idx1-ubyte */; };
+		9298DED1168B32F500CEADCD /* sudoku1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9298DECC168B32F500CEADCD /* sudoku1.jpg */; };
+		9298DED2168B32F500CEADCD /* sudoku2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9298DECD168B32F500CEADCD /* sudoku2.jpg */; };
+		9298DED3168B32F500CEADCD /* sudoku3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9298DECE168B32F500CEADCD /* sudoku3.jpg */; };
+		9298DED4168B32F500CEADCD /* sudoku4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9298DECF168B32F500CEADCD /* sudoku4.jpg */; };
+		9298DED5168B32F500CEADCD /* sudoku5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9298DED0168B32F500CEADCD /* sudoku5.jpg */; };
+		9298DEE6168B333C00CEADCD /* GASolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9298DED7168B333200CEADCD /* GASolver.cpp */; };
+		9298DEE7168B334000CEADCD /* NeuralLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9298DEDA168B333200CEADCD /* NeuralLayer.cpp */; };
+		9298DEE8168B334300CEADCD /* NeuralNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9298DEDC168B333200CEADCD /* NeuralNetwork.cpp */; };
+		9298DEE9168B334600CEADCD /* Neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9298DEDE168B333200CEADCD /* Neuron.cpp */; };
+		9298DEEA168B334A00CEADCD /* OCR.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9298DEE1168B333200CEADCD /* OCR.mm */; };
+		9298DEEB168B334D00CEADCD /* Sudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9298DEE2168B333200CEADCD /* Sudoku.cpp */; };
+		9298DEEC168B335000CEADCD /* SudokuImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9298DEE4168B333200CEADCD /* SudokuImage.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9237693F168B559400C6A4EE /* sudoku6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sudoku6.jpg; sourceTree = "<group>"; };
+		92376942168B570800C6A4EE /* sudoku7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sudoku7.jpg; sourceTree = "<group>"; };
+		92376944168B57ED00C6A4EE /* sudoku8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sudoku8.jpg; sourceTree = "<group>"; };
+		9298DE6D168B319700CEADCD /* PuzzleSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzleSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9298DE71168B319700CEADCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9298DE73168B319700CEADCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9298DE75168B319700CEADCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9298DE79168B319700CEADCD /* PuzzleSolver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PuzzleSolver-Info.plist"; sourceTree = "<group>"; };
+		9298DE7B168B319700CEADCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9298DE7D168B319700CEADCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9298DE7F168B319700CEADCD /* PuzzleSolver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PuzzleSolver-Prefix.pch"; sourceTree = "<group>"; };
+		9298DE80168B319700CEADCD /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
+		9298DE81168B319700CEADCD /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
+		9298DE83168B319700CEADCD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9298DE85168B319700CEADCD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9298DE87168B319700CEADCD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9298DE89168B319700CEADCD /* PSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSViewController.h; sourceTree = "<group>"; };
+		9298DE8A168B319700CEADCD /* PSViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PSViewController.mm; sourceTree = "<group>"; };
+		9298DE8D168B319700CEADCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PSViewController_iPhone.xib; sourceTree = "<group>"; };
+		9298DE90168B319700CEADCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PSViewController_iPad.xib; sourceTree = "<group>"; };
+		9298DE97168B32C300CEADCD /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		9298DE9A168B32E100CEADCD /* ocr_problem_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_0.txt; sourceTree = "<group>"; };
+		9298DE9B168B32E100CEADCD /* ocr_problem_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_1.txt; sourceTree = "<group>"; };
+		9298DE9C168B32E100CEADCD /* ocr_problem_10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_10.txt; sourceTree = "<group>"; };
+		9298DE9D168B32E100CEADCD /* ocr_problem_11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_11.txt; sourceTree = "<group>"; };
+		9298DE9E168B32E100CEADCD /* ocr_problem_12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_12.txt; sourceTree = "<group>"; };
+		9298DE9F168B32E100CEADCD /* ocr_problem_13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_13.txt; sourceTree = "<group>"; };
+		9298DEA0168B32E100CEADCD /* ocr_problem_14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_14.txt; sourceTree = "<group>"; };
+		9298DEA1168B32E100CEADCD /* ocr_problem_15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_15.txt; sourceTree = "<group>"; };
+		9298DEA2168B32E100CEADCD /* ocr_problem_16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_16.txt; sourceTree = "<group>"; };
+		9298DEA3168B32E100CEADCD /* ocr_problem_17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_17.txt; sourceTree = "<group>"; };
+		9298DEA4168B32E100CEADCD /* ocr_problem_18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_18.txt; sourceTree = "<group>"; };
+		9298DEA5168B32E100CEADCD /* ocr_problem_19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_19.txt; sourceTree = "<group>"; };
+		9298DEA6168B32E100CEADCD /* ocr_problem_2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_2.txt; sourceTree = "<group>"; };
+		9298DEA7168B32E100CEADCD /* ocr_problem_3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_3.txt; sourceTree = "<group>"; };
+		9298DEA8168B32E100CEADCD /* ocr_problem_4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_4.txt; sourceTree = "<group>"; };
+		9298DEA9168B32E100CEADCD /* ocr_problem_5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_5.txt; sourceTree = "<group>"; };
+		9298DEAA168B32E100CEADCD /* ocr_problem_6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_6.txt; sourceTree = "<group>"; };
+		9298DEAB168B32E100CEADCD /* ocr_problem_7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_7.txt; sourceTree = "<group>"; };
+		9298DEAC168B32E100CEADCD /* ocr_problem_8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_8.txt; sourceTree = "<group>"; };
+		9298DEAD168B32E100CEADCD /* ocr_problem_9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocr_problem_9.txt; sourceTree = "<group>"; };
+		9298DEC3168B32EB00CEADCD /* t10k-images.idx3-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "t10k-images.idx3-ubyte"; sourceTree = "<group>"; };
+		9298DEC4168B32EB00CEADCD /* t10k-labels.idx1-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "t10k-labels.idx1-ubyte"; sourceTree = "<group>"; };
+		9298DEC5168B32EB00CEADCD /* train-images.idx3-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-images.idx3-ubyte"; sourceTree = "<group>"; };
+		9298DEC6168B32EB00CEADCD /* train-labels.idx1-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-labels.idx1-ubyte"; sourceTree = "<group>"; };
+		9298DECC168B32F500CEADCD /* sudoku1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sudoku1.jpg; sourceTree = "<group>"; };
+		9298DECD168B32F500CEADCD /* sudoku2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sudoku2.jpg; sourceTree = "<group>"; };
+		9298DECE168B32F500CEADCD /* sudoku3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sudoku3.jpg; sourceTree = "<group>"; };
+		9298DECF168B32F500CEADCD /* sudoku4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sudoku4.jpg; sourceTree = "<group>"; };
+		9298DED0168B32F500CEADCD /* sudoku5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sudoku5.jpg; sourceTree = "<group>"; };
+		9298DED6168B333200CEADCD /* DataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataItem.h; sourceTree = "<group>"; };
+		9298DED7168B333200CEADCD /* GASolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GASolver.cpp; sourceTree = "<group>"; };
+		9298DED8168B333200CEADCD /* GASolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GASolver.h; sourceTree = "<group>"; };
+		9298DED9168B333200CEADCD /* HoughLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoughLine.h; sourceTree = "<group>"; };
+		9298DEDA168B333200CEADCD /* NeuralLayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NeuralLayer.cpp; sourceTree = "<group>"; };
+		9298DEDB168B333200CEADCD /* NeuralLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeuralLayer.h; sourceTree = "<group>"; };
+		9298DEDC168B333200CEADCD /* NeuralNetwork.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NeuralNetwork.cpp; sourceTree = "<group>"; };
+		9298DEDD168B333200CEADCD /* NeuralNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeuralNetwork.h; sourceTree = "<group>"; };
+		9298DEDE168B333200CEADCD /* Neuron.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Neuron.cpp; sourceTree = "<group>"; };
+		9298DEDF168B333200CEADCD /* Neuron.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Neuron.h; sourceTree = "<group>"; };
+		9298DEE0168B333200CEADCD /* OCR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCR.h; sourceTree = "<group>"; };
+		9298DEE1168B333200CEADCD /* OCR.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCR.mm; sourceTree = "<group>"; };
+		9298DEE2168B333200CEADCD /* Sudoku.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sudoku.cpp; sourceTree = "<group>"; };
+		9298DEE3168B333200CEADCD /* Sudoku.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sudoku.h; sourceTree = "<group>"; };
+		9298DEE4168B333200CEADCD /* SudokuImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SudokuImage.cpp; sourceTree = "<group>"; };
+		9298DEE5168B333200CEADCD /* SudokuImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SudokuImage.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9298DE6A168B319700CEADCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9298DE72168B319700CEADCD /* UIKit.framework in Frameworks */,
+				9298DE74168B319700CEADCD /* Foundation.framework in Frameworks */,
+				9298DE76168B319700CEADCD /* CoreGraphics.framework in Frameworks */,
+				9298DE98168B32C300CEADCD /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9298DE62168B319700CEADCD = {
+			isa = PBXGroup;
+			children = (
+				9298DE77168B319700CEADCD /* PuzzleSolver */,
+				9298DE70168B319700CEADCD /* Frameworks */,
+				9298DE6E168B319700CEADCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9298DE6E168B319700CEADCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9298DE6D168B319700CEADCD /* PuzzleSolver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9298DE70168B319700CEADCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9298DE97168B32C300CEADCD /* opencv2.framework */,
+				9298DE71168B319700CEADCD /* UIKit.framework */,
+				9298DE73168B319700CEADCD /* Foundation.framework */,
+				9298DE75168B319700CEADCD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9298DE77168B319700CEADCD /* PuzzleSolver */ = {
+			isa = PBXGroup;
+			children = (
+				9298DED6168B333200CEADCD /* DataItem.h */,
+				9298DED7168B333200CEADCD /* GASolver.cpp */,
+				9298DED8168B333200CEADCD /* GASolver.h */,
+				9298DED9168B333200CEADCD /* HoughLine.h */,
+				9298DEDA168B333200CEADCD /* NeuralLayer.cpp */,
+				9298DEDB168B333200CEADCD /* NeuralLayer.h */,
+				9298DEDC168B333200CEADCD /* NeuralNetwork.cpp */,
+				9298DEDD168B333200CEADCD /* NeuralNetwork.h */,
+				9298DEDE168B333200CEADCD /* Neuron.cpp */,
+				9298DEDF168B333200CEADCD /* Neuron.h */,
+				9298DEE0168B333200CEADCD /* OCR.h */,
+				9298DEE1168B333200CEADCD /* OCR.mm */,
+				9298DEE2168B333200CEADCD /* Sudoku.cpp */,
+				9298DEE3168B333200CEADCD /* Sudoku.h */,
+				9298DEE4168B333200CEADCD /* SudokuImage.cpp */,
+				9298DEE5168B333200CEADCD /* SudokuImage.h */,
+				9298DECB168B32F500CEADCD /* pics */,
+				9298DEC2168B32EB00CEADCD /* data */,
+				9298DE99168B32E100CEADCD /* anns */,
+				9298DE80168B319700CEADCD /* PSAppDelegate.h */,
+				9298DE81168B319700CEADCD /* PSAppDelegate.m */,
+				9298DE89168B319700CEADCD /* PSViewController.h */,
+				9298DE8A168B319700CEADCD /* PSViewController.mm */,
+				9298DE8C168B319700CEADCD /* PSViewController_iPhone.xib */,
+				9298DE8F168B319700CEADCD /* PSViewController_iPad.xib */,
+				9298DE78168B319700CEADCD /* Supporting Files */,
+			);
+			name = PuzzleSolver;
+			path = SmartVision;
+			sourceTree = "<group>";
+		};
+		9298DE78168B319700CEADCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9298DE79168B319700CEADCD /* PuzzleSolver-Info.plist */,
+				9298DE7A168B319700CEADCD /* InfoPlist.strings */,
+				9298DE7D168B319700CEADCD /* main.m */,
+				9298DE7F168B319700CEADCD /* PuzzleSolver-Prefix.pch */,
+				9298DE83168B319700CEADCD /* Default.png */,
+				9298DE85168B319700CEADCD /* Default@2x.png */,
+				9298DE87168B319700CEADCD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9298DE99168B32E100CEADCD /* anns */ = {
+			isa = PBXGroup;
+			children = (
+				9298DE9A168B32E100CEADCD /* ocr_problem_0.txt */,
+				9298DE9B168B32E100CEADCD /* ocr_problem_1.txt */,
+				9298DE9C168B32E100CEADCD /* ocr_problem_10.txt */,
+				9298DE9D168B32E100CEADCD /* ocr_problem_11.txt */,
+				9298DE9E168B32E100CEADCD /* ocr_problem_12.txt */,
+				9298DE9F168B32E100CEADCD /* ocr_problem_13.txt */,
+				9298DEA0168B32E100CEADCD /* ocr_problem_14.txt */,
+				9298DEA1168B32E100CEADCD /* ocr_problem_15.txt */,
+				9298DEA2168B32E100CEADCD /* ocr_problem_16.txt */,
+				9298DEA3168B32E100CEADCD /* ocr_problem_17.txt */,
+				9298DEA4168B32E100CEADCD /* ocr_problem_18.txt */,
+				9298DEA5168B32E100CEADCD /* ocr_problem_19.txt */,
+				9298DEA6168B32E100CEADCD /* ocr_problem_2.txt */,
+				9298DEA7168B32E100CEADCD /* ocr_problem_3.txt */,
+				9298DEA8168B32E100CEADCD /* ocr_problem_4.txt */,
+				9298DEA9168B32E100CEADCD /* ocr_problem_5.txt */,
+				9298DEAA168B32E100CEADCD /* ocr_problem_6.txt */,
+				9298DEAB168B32E100CEADCD /* ocr_problem_7.txt */,
+				9298DEAC168B32E100CEADCD /* ocr_problem_8.txt */,
+				9298DEAD168B32E100CEADCD /* ocr_problem_9.txt */,
+			);
+			path = anns;
+			sourceTree = "<group>";
+		};
+		9298DEC2168B32EB00CEADCD /* data */ = {
+			isa = PBXGroup;
+			children = (
+				9298DEC3168B32EB00CEADCD /* t10k-images.idx3-ubyte */,
+				9298DEC4168B32EB00CEADCD /* t10k-labels.idx1-ubyte */,
+				9298DEC5168B32EB00CEADCD /* train-images.idx3-ubyte */,
+				9298DEC6168B32EB00CEADCD /* train-labels.idx1-ubyte */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		9298DECB168B32F500CEADCD /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				92376944168B57ED00C6A4EE /* sudoku8.jpg */,
+				92376942168B570800C6A4EE /* sudoku7.jpg */,
+				9298DECC168B32F500CEADCD /* sudoku1.jpg */,
+				9298DECD168B32F500CEADCD /* sudoku2.jpg */,
+				9298DECE168B32F500CEADCD /* sudoku3.jpg */,
+				9298DECF168B32F500CEADCD /* sudoku4.jpg */,
+				9298DED0168B32F500CEADCD /* sudoku5.jpg */,
+				9237693F168B559400C6A4EE /* sudoku6.jpg */,
+			);
+			path = pics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9298DE6C168B319700CEADCD /* PuzzleSolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9298DE94168B319700CEADCD /* Build configuration list for PBXNativeTarget "PuzzleSolver" */;
+			buildPhases = (
+				9298DE69168B319700CEADCD /* Sources */,
+				9298DE6A168B319700CEADCD /* Frameworks */,
+				9298DE6B168B319700CEADCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuzzleSolver;
+			productName = SmartVision;
+			productReference = 9298DE6D168B319700CEADCD /* PuzzleSolver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9298DE64168B319700CEADCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = PS;
+			};
+			buildConfigurationList = 9298DE67168B319700CEADCD /* Build configuration list for PBXProject "PuzzleSolver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9298DE62168B319700CEADCD;
+			productRefGroup = 9298DE6E168B319700CEADCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9298DE6C168B319700CEADCD /* PuzzleSolver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9298DE6B168B319700CEADCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9298DE7C168B319700CEADCD /* InfoPlist.strings in Resources */,
+				9298DE84168B319700CEADCD /* Default.png in Resources */,
+				9298DE86168B319700CEADCD /* Default@2x.png in Resources */,
+				9298DE88168B319700CEADCD /* Default-568h@2x.png in Resources */,
+				9298DE8E168B319700CEADCD /* PSViewController_iPhone.xib in Resources */,
+				9298DE91168B319700CEADCD /* PSViewController_iPad.xib in Resources */,
+				9298DEAE168B32E100CEADCD /* ocr_problem_0.txt in Resources */,
+				9298DEAF168B32E100CEADCD /* ocr_problem_1.txt in Resources */,
+				9298DEB0168B32E100CEADCD /* ocr_problem_10.txt in Resources */,
+				9298DEB1168B32E100CEADCD /* ocr_problem_11.txt in Resources */,
+				9298DEB2168B32E100CEADCD /* ocr_problem_12.txt in Resources */,
+				9298DEB3168B32E100CEADCD /* ocr_problem_13.txt in Resources */,
+				9298DEB4168B32E100CEADCD /* ocr_problem_14.txt in Resources */,
+				9298DEB5168B32E100CEADCD /* ocr_problem_15.txt in Resources */,
+				9298DEB6168B32E100CEADCD /* ocr_problem_16.txt in Resources */,
+				9298DEB7168B32E100CEADCD /* ocr_problem_17.txt in Resources */,
+				9298DEB8168B32E100CEADCD /* ocr_problem_18.txt in Resources */,
+				9298DEB9168B32E100CEADCD /* ocr_problem_19.txt in Resources */,
+				9298DEBA168B32E100CEADCD /* ocr_problem_2.txt in Resources */,
+				9298DEBB168B32E100CEADCD /* ocr_problem_3.txt in Resources */,
+				9298DEBC168B32E100CEADCD /* ocr_problem_4.txt in Resources */,
+				9298DEBD168B32E100CEADCD /* ocr_problem_5.txt in Resources */,
+				9298DEBE168B32E100CEADCD /* ocr_problem_6.txt in Resources */,
+				9298DEBF168B32E100CEADCD /* ocr_problem_7.txt in Resources */,
+				9298DEC0168B32E100CEADCD /* ocr_problem_8.txt in Resources */,
+				9298DEC1168B32E100CEADCD /* ocr_problem_9.txt in Resources */,
+				9298DEC7168B32EB00CEADCD /* t10k-images.idx3-ubyte in Resources */,
+				9298DEC8168B32EB00CEADCD /* t10k-labels.idx1-ubyte in Resources */,
+				9298DEC9168B32EB00CEADCD /* train-images.idx3-ubyte in Resources */,
+				9298DECA168B32EB00CEADCD /* train-labels.idx1-ubyte in Resources */,
+				9298DED1168B32F500CEADCD /* sudoku1.jpg in Resources */,
+				9298DED2168B32F500CEADCD /* sudoku2.jpg in Resources */,
+				9298DED3168B32F500CEADCD /* sudoku3.jpg in Resources */,
+				9298DED4168B32F500CEADCD /* sudoku4.jpg in Resources */,
+				9298DED5168B32F500CEADCD /* sudoku5.jpg in Resources */,
+				92376940168B559400C6A4EE /* sudoku6.jpg in Resources */,
+				92376943168B570800C6A4EE /* sudoku7.jpg in Resources */,
+				92376945168B57ED00C6A4EE /* sudoku8.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9298DE69168B319700CEADCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9298DE7E168B319700CEADCD /* main.m in Sources */,
+				9298DE82168B319700CEADCD /* PSAppDelegate.m in Sources */,
+				9298DE8B168B319700CEADCD /* PSViewController.mm in Sources */,
+				9298DEE6168B333C00CEADCD /* GASolver.cpp in Sources */,
+				9298DEE7168B334000CEADCD /* NeuralLayer.cpp in Sources */,
+				9298DEE8168B334300CEADCD /* NeuralNetwork.cpp in Sources */,
+				9298DEE9168B334600CEADCD /* Neuron.cpp in Sources */,
+				9298DEEA168B334A00CEADCD /* OCR.mm in Sources */,
+				9298DEEB168B334D00CEADCD /* Sudoku.cpp in Sources */,
+				9298DEEC168B335000CEADCD /* SudokuImage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9298DE7A168B319700CEADCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9298DE7B168B319700CEADCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9298DE8C168B319700CEADCD /* PSViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9298DE8D168B319700CEADCD /* en */,
+			);
+			name = PSViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9298DE8F168B319700CEADCD /* PSViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9298DE90168B319700CEADCD /* en */,
+			);
+			name = PSViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9298DE92168B319700CEADCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9298DE93168B319700CEADCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9298DE95168B319700CEADCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartVision/PuzzleSolver-Prefix.pch";
+				INFOPLIST_FILE = "SmartVision/PuzzleSolver-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_NAME = PuzzleSolver;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9298DE96168B319700CEADCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartVision/PuzzleSolver-Prefix.pch";
+				INFOPLIST_FILE = "SmartVision/PuzzleSolver-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_NAME = PuzzleSolver;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9298DE67168B319700CEADCD /* Build configuration list for PBXProject "PuzzleSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9298DE92168B319700CEADCD /* Debug */,
+				9298DE93168B319700CEADCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9298DE94168B319700CEADCD /* Build configuration list for PBXNativeTarget "PuzzleSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9298DE95168B319700CEADCD /* Debug */,
+				9298DE96168B319700CEADCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9298DE64168B319700CEADCD /* Project object */;
+}
